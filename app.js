@@ -1,8 +1,10 @@
 // ==========================================================
-// Tugas 1 — RESTful API Murni dengan Express.js (SI5B)
 // Topik 35: Toko Mainan (Resource: /toys)
 // Mahasiswa: Mas'ud Suhail
+// Status: Final - Siap Deploy ke Vercel
+// Tugas 1 RESTful API Express - Mas'ud Suhail (SI5B)
 // ==========================================================
+
 
 const express = require("express");
 const app = express();
@@ -44,7 +46,7 @@ let nextId = 4;
 app.get("/", (req, res) => {
   res.json({
     nama: "Mas'ud Suhail",
-    nim: "GANTI_DENGAN_NIM_ANDA",
+    npm: "2428240164",
     topik: "Topik 35 - Toko Mainan",
     endpoints: [
       {
